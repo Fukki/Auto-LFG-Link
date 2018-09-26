@@ -1,0 +1,9 @@
+{
+	"files": {
+		"index.js": "f9f4369d0f85d870b996d481efa23d7b33f1ee58649f117daa02dabc8701265b"
+	},
+	"defs": {
+		"C_REQUEST_PARTY_MATCH_LINK": 1,
+		"S_RETURN_TO_LOBBY": "raw"
+	}
+}
