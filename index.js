@@ -6,8 +6,8 @@ module.exports = function AutoLFGLink(mod) {
 	cmd.add('autolfg', (delay, spam) => {
 		delay = Number(delay); spamLFG = Number(spam);
 		if (delay > 0) {
-			if (spamLFG < 1) spamLFG = 1;
-			interval = setInterval(sendLink, delay);
+			if (delay < 3000) delay = 3000; if (spamLFG < 1) spamLFG = 1;
+			clearInterval(interval); _send(); interval = setInterval(sendLink, delay);
 			cmd.message('Auto LFG Link set to: ' + (spamLFG > 0 ? spamLFG + '/' : '1/') + delay + ' ms.');
 		} else {
 			clearInterval(interval);
