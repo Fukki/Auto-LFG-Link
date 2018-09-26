@@ -4,7 +4,7 @@ module.exports = function AutoLFGLink(mod) {
 	mod.hook('S_RETURN_TO_LOBBY', 'raw', () => {clearInterval(interval);});
     cmd.add('autolfg', (delay, spam) => {
         delay = Number(delay); spamLFG = Number(spam);
-        if (delay > 0) {
+		if (delay > 0) {
 			if (spamLFG < 1) spamLFG = 1;
             interval = setInterval(sendLink, delay);
             cmd.message('Auto LFG Link set to: ' + (spamLFG > 0 ? spamLFG + '/' : '1/') + delay + ' ms.');
