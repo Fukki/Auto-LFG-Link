@@ -1,4 +1,4 @@
-Because i am lazy to spam with my self or marcro </br>
+Because i am lazy to shout my LFG to find member with my self or macros :/</br>
 </br>
 Command:</br>
 - autolfg [timer (ms)] [spam (times)] : auto shout your LFG link</br>
