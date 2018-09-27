@@ -6,5 +6,5 @@ Command:</br>
 - autolfg raid [msg] : post your LFG in raid mode</br>
 - autolfg : if non parameter will stop auto shout</br>
 </br>
-Example for use
+Example for use:</br>
 - "autolfg 10000 3" : auto shout 3 times every 10 sec</br>
