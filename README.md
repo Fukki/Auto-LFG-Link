@@ -8,3 +8,8 @@ Command:</br>
 </br>
 Example for use:</br>
 - "autolfg 10000 3" : auto shout 3 times every 10 sec</br>
+</br>
+Issues:</br>
+- You need to command again to stop auto shout</br>
+- Auto shout ignore you have ready post LFG or not it just spam only</br>
+- autolfg party/raid can post from everywhere like while in dungeon</br>
