@@ -3,6 +3,7 @@
 		"index.js": "57ae4b9de273db8652f193f45b3457912d79f3ce48faeffc34e62c27a1f3f489"
 	},
 	"defs": {
+		"C_REGISTER_PARTY_INFO": 1,
 		"C_REQUEST_PARTY_MATCH_LINK": 1,
 		"S_RETURN_TO_LOBBY": "raw"
 	}
