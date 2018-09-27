@@ -12,5 +12,5 @@ Example for use:</br>
 Issues:</br>
 - You need to command again to stop auto shout</br>
 - Auto shout ignore you have ready post LFG or not it just spam only</br>
-- You can get shout block if you set after and more spam for good is 1/3000 (3 sec) or 2/6000 (6 sec)</br>
+- You can get shout block if you set faster or more spam for good is 1/3000 (3 sec) or 2/6000 (6 sec)</br>
 - Autolfg party/raid can post from everywhere like while in dungeon</br>
