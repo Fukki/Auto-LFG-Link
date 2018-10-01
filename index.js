@@ -10,12 +10,16 @@ module.exports = function AutoLFGLink(mod) {
 				case 'party': postLFG(arg, 0); break;
 				case 'raid': postLFG(arg, 1); break;
 				default: if (arg[0]) arg[0] = Number(arg[0]); if (arg[1]) spamLFG = Number(arg[1]); if (arg[0] > 0) {
-					if (arg[0] < 3000) arg[0] = 3000; if (spamLFG < 1) spamLFG = 1;
-					clearTimer(); _send(); interval = setInterval(sendLink, arg[0]);
+					if (arg[0] < 3000) arg[0] = 3000; if (spamLFG < 1) spamLFG = 1; clearTimer(); interval = setInterval(sendLink, arg[0]);
 					msg('Auto LFG Link set to: ' + (spamLFG > 0 ? spamLFG + '/' : '1/') + arg[0] + ' ms.');} break;
 			}
 		} else {
-			clearTimer(); msg('Auto LFG Link has stopped.');
+			if (interval) {
+				clearTimer();
+				msg('Auto LFG Link has stopped.');
+			} else {
+				msg('Auto LFG Link has not started.');
+			}
 		}
 	});
 	function msg(msg) {cmd.message(msg);}
