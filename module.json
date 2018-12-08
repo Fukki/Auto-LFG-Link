@@ -1,5 +1,12 @@
 {
 	"disableAutoUpdate": false,
+	"name": "Auto LFG Link",
+	"author": "Fukki",
+	"description": "Spam your LFG link to find member.",
+	"version": "Kappa :v",
+	"options": {
+		"niceName": "autoLFG"
+	},
 	"servers": ["https://raw.githubusercontent.com/Fukki/Auto-LFG-Link/master/"],
 	"supportUrl": "https://github.com/Fukki/Auto-LFG-Link/issues/"
 }
